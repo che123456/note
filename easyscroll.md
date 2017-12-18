@@ -22,7 +22,7 @@ import EasyScroll from 'easyscroll'
 Vue.use(EasyScroll)
 ```
 
-## 基本用法
+### 基本用法
 
 > 安装完easyscroll之后，在组件中直接引用EasyScrollbar组件就行，产生滚动条的内容作为EasyScroll的$slot插入到滚动条组件中，注意插入到滚动条组件中内容 需要一个外层的包裹，即上面代码中的#wrapper div，其内部才是真正动态的内容。
 
@@ -61,7 +61,7 @@ export default {
 
 ```
 
-## 配置参数
+### 配置参数
 
 参数名|说明
 ---|---

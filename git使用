@@ -1,12 +1,12 @@
 
-解决git 无法运行的问题
-进入Git安装目录
-如C:\Program Files\Git\usr\bin
-将 msys-2.0.dll拷贝到上一级目录，
-然后在原来的usr\bin目录下执行下面命令
-rebase -b 0x76000000 ..\msys-2.0.dll
-rebase -b 0x30000000 ..\msys-2.0.dll
-然后再拷贝回去替换这个DLL文件
+## 解决git 无法运行的问题
+1. 进入Git安装目录
+1. 如C:\Program Files\Git\usr\bin
+1. 将 msys-2.0.dll拷贝到上一级目录，
+1. 然后在原来的usr\bin目录下执行下面命令
+1. rebase -b 0x76000000 ..\msys-2.0.dll
+1. rebase -b 0x30000000 ..\msys-2.0.dll
+1. 然后再拷贝回去替换这个DLL文件
 
 
 

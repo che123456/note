@@ -1,28 +1,28 @@
-## 基于vue的滚动条组件
+# 基于vue的滚动条组件
 > [项目线上例子](https://garveyzuo.github.io/easyscroll.github.io/#/)
 > [项目源代码](https://github.com/GarveyZuo/EasyScroll)
-###  安装依赖
+##  安装依赖
 ```
  npm isntall --save easyscroll
 ```
-### 安装vue-jsx
+## 安装vue-jsx
 ```
  npm install babel-plugin-syntax-jsx babel-plugin-transform-vue-jsx babel-helper-vue-jsx-merge-props babel-preset-es2015 --save-dev
  ```
-### 修改项目根目录下.babelrc文件
+## 修改项目根目录下.babelrc文件
 ```
 {
   "presets": ["es2015"],
   "plugins": ["transform-vue-jsx"]
 }
 ```
-### 导入项目main.js
+## 导入项目main.js
 ```
 import EasyScroll from 'easyscroll'
 Vue.use(EasyScroll)
 ```
 
-### 基本用法
+## 基本用法
 
 > 安装完easyscroll之后，在组件中直接引用EasyScrollbar组件就行，产生滚动条的内容作为EasyScroll的$slot插入到滚动条组件中，注意插入到滚动条组件中内容 需要一个外层的包裹，即上面代码中的#wrapper div，其内部才是真正动态的内容。
 
@@ -61,7 +61,7 @@ export default {
 
 ```
 
-### 配置参数
+## 配置参数
 
 参数名|说明
 ---|---
@@ -74,7 +74,7 @@ barOpacityMin|滚动条非激活状态下的透明度
 zIndex|滚动条z-Index
 autohidemode|自动隐藏模式
 horizrailenabled|是否显示水平滚动条
-### 示例
+## 示例
 ```
 barOption:{
   barColor:"#959595",   //滚动条颜色

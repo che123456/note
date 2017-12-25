@@ -46,3 +46,34 @@
 * git push origin <local_branch> # 创建远程分支， origin是远程仓库名
 * git push origin <local_branch>:<remote_branch> # 创建远程分支
 * git push origin :<remote_branch> #先删除本地分支(git br -d <branch>)，然后再push删除远程分支
+  
+ ## 推送本地分支到远程分支
+* 创建本地分支 local_branch
+* git branch local_branch
+
+* 创建本地分支local_branch 并切换到local_branch分支
+ * git checkout -b local_branch
+
+* 切换到分支local_branch
+  * git checkout local_branch
+
+* 推送本地分支local_branch到远程分支 remote_branch并建立关联关系
+  * 远程已有remote_branch分支并且已经关联本地分支local_branch且本地已经切换到local_branch
+    * git push
+  * 远程已有remote_branch分支但未关联本地分支local_branch且本地已经切换到local_branch
+    * git push -u origin/remote_branch
+  * 远程没有有remote_branch分支并，本地已经切换到local_branch
+    * git push origin local_branch:remote_branch
+  * 删除本地分支local_branch
+    * git branch -d local_branch
+  * 删除远程分支remote_branch
+    * git push origin  :remote_branch
+    * git branch -m | -M oldbranch newbranch 重命名分支，如果newbranch名字分支已经存在，则需要使用-M强制重命名，否则，使用-m进行重命名。
+    * git branch -d | -D branchname 删除branchname分支
+    * git branch -d -r branchname 删除远程branchname分支
+    
+* 查看本地分支
+  *  git branch
+
+* 查看远程和本地分支
+  * git branch -a

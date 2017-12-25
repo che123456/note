@@ -7,3 +7,4 @@
 
 ## 参考资料
 * [eslint代码规范](https://github.com/standard/standard/blob/master/docs/RULES-zhcn.md)
+* [VSCode拓展插件推荐](https://github.com/varHarrie/Dawn-Blossoms/issues/10)

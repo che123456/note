@@ -2,7 +2,7 @@
 * [git的使用](https://github.com/che123456/note/blob/master/git.md)
 * [基于vue的滚动条组件](https://github.com/che123456/note/blob/master/easyscroll.md)
 * [vue项目使用sass](https://github.com/che123456/note/blob/master/sass.md)
-* [webPack配置代理实现开发环境跨域](https://github.com/che123456/note/proxyTablet.md)
+* [webPack配置代理实现开发环境跨域](https://github.com/che123456/note/blob/master/proxyTablet.md)
 ## 遇到的问题及解决方式
 * [键盘回车事件导致页面刷新的问题](http://blog.csdn.net/xiaoshuji/article/details/50606684)
 * [解决Vue2.0在IE11空白](http://blog.csdn.net/Bright2017/article/details/77850525)

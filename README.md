@@ -2,6 +2,7 @@
 * [git的使用](https://github.com/che123456/note/blob/master/git.md)
 * [基于vue的滚动条组件](https://github.com/che123456/note/blob/master/easyscroll.md)
 * [vue项目使用sass](https://github.com/che123456/note/blob/master/sass.md)
+* [前端下载文件](https://github.com/che123456/note/blob/master/download)
 * [webPack配置代理实现开发环境跨域](https://github.com/chefudong/note/blob/master/proxyTable.md)
 ## 遇到的问题及解决方式
 * [键盘回车事件导致页面刷新的问题](http://blog.csdn.net/xiaoshuji/article/details/50606684)

@@ -14,7 +14,7 @@ export default {
     return {};
   },
   //计算属性
-  computed() {},
+  computed: {},
   //定义方法
   methods: {},
   //过滤器

@@ -75,6 +75,7 @@ vue cli3.0 引入eslint 结合vscode使用
 
 打开 文件-》首选项-》设置，找到并打开 setting.json 添加如下配置
 
+`
 {
  "eslint.enable": true, // 是否开启检测
  "editor.tabSize": 2,
@@ -97,6 +98,7 @@ vue cli3.0 引入eslint 结合vscode使用
  "vue"
  ],
 }
+`
 4.安装 Vetur 插件
 
 Vetur 能够在 vscode1 编辑器里面识别 .vue 文件并且对文件可以：

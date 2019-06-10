@@ -5,12 +5,14 @@ vue cli3.0 引入eslint 结合vscode使用
 
 第一步 （安装）
 
-npm install eslint eslint-config-airbnb-base eslint-plugin-import eslint-plugin-vue --save-dev 引入关于 eslint 的一些依赖 当你的 package.json 里出现
+`npm install eslint eslint-config-airbnb-base eslint-plugin-import eslint-plugin-vue --save-dev` 引入关于 eslint 的一些依赖 当你的 package.json 里出现
 
+`
 "eslint": "^5.16.0",
 "eslint-config-airbnb-base": "^13.1.0",
 "eslint-plugin-import": "^2.17.3",
 "eslint-plugin-vue": "^5.2.2",
+`
 说明安装成功
 
 第二步（检测）
@@ -27,7 +29,7 @@ vue cli3.0 引入eslint 结合vscode使用
 
 运行
 
-npm run lint
+`npm run lint`
 
 vue cli3.0 引入eslint 结合vscode使用
 
@@ -37,7 +39,7 @@ vue cli3.0 引入eslint 结合vscode使用
 
 第三部（修复）
 
-上面的 "lint": "eslint --ext .js,.vue src" 修改为 eslint --ext .js,.vue src --fix
+上面的 `"lint": "eslint --ext .js,.vue src"` 修改为 `eslint --ext .js,.vue src --fix`
 
 运行
 

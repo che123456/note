@@ -14,16 +14,16 @@
 ***
 ## html类
 * html5有什么新的特性
-  1. 语义标签
-  2. 增强型表单
-  3. 视频和音频
-  4. Canvas绘图
-  5. 地理定位
-  6. 拖放API
-  7. Web Storage
-   * localStorage - 没有时间限制的数据存储
-   * sessionStorage - 针对一个 session 的数据存储, 当用户关闭浏览器窗口后，数据会被删除。
-  8. WebSocket
+1. 语义标签
+2. 增强型表单
+3. 视频和音频
+4. Canvas绘图
+5. 地理定位
+6. 拖放API
+7. Web Storage
+ * localStorage - 没有时间限制的数据存储
+ * sessionStorage - 针对一个 session 的数据存储, 当用户关闭浏览器窗口后，数据会被删除。
+8. WebSocket
 ## css类
 * 简述下flex布局
 * 简述下grid布局

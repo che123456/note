@@ -21,8 +21,8 @@
 5. 地理定位
 6. 拖放API
 7. Web Storage
- * localStorage - 没有时间限制的数据存储
- * sessionStorage - 针对一个 session 的数据存储, 当用户关闭浏览器窗口后，数据会被删除。
+  * localStorage - 没有时间限制的数据存储
+  * sessionStorage - 针对一个 session 的数据存储, 当用户关闭浏览器窗口后，数据会被删除。
 8. WebSocket
 ## css类
 * 简述下flex布局
@@ -63,6 +63,13 @@
 * 图片除了雪碧图，还有什么可以优化的方式
 * 为什么gzip不压缩图片
 * 单页应用的首屏优化
+  * 使用CDN资源,减小服务器带宽压力
+  * 路由懒加载
+  * 将一些静态js css放到其他地方（如OSS），减小服务器压力
+  * 按需加载三方资源，如iview,建议按需引入iview中的组件
+  * 使用nginx开启gzip减小网络传输的流量大小
+  *  webpack开启gzip压缩
+  *  若首屏为登录页，可以做成多入口，登录页单独分离为一个入口
 * 请简述cookie,localstorage,sessionstorage的区别(2/8)
 ***
 ## 技术其他类

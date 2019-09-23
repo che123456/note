@@ -15,3 +15,4 @@
 * [VSCode拓展插件推荐](https://github.com/varHarrie/Dawn-Blossoms/issues/10)
 * [Vue调试神器vue-devtools安装](https://segmentfault.com/a/1190000009682735)
 * [Vue with TypeScript](https://juejin.im/post/5bd698c7f265da0ae8015f12)
+* [vue面试总结](https://github.com/che123456/note/blob/master/interview.md)

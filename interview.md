@@ -33,7 +33,7 @@
 * position有哪些值/absolute以什么作为父级/简述sticky属性（3/8）
 * 了解BFC吗，BFC可以用来解决什么问题
 * display:none和visibliy:hidden的区别
-* vue类（简历中有写常用技术栈为vue）
+## vue类（简历中有写常用技术栈为vue）
 * 双向绑定原理（频率很高，6/8左右，建议在面试前手写一个简单的双向绑定，有可能面试官会直接问compile，watcher，Observe，deps的功能和之间的联系）
 * vue3.0和2.0双向绑定的区别，这样的改动有什么好处（2/8）
 * vue-router的实现原理，history和hash模式有什么区别
